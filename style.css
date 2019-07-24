@@ -1,0 +1,179 @@
+body{
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size:22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin:0;
+    
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width:650px;
+}
+header a{
+    color:seashell;
+}
+header a:hover{
+    opacity:0.7;
+}
+nav{
+    text-align: right;
+    flex-grow: 1;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right:10px;
+    color:seashell;
+    text-decoration:underline;
+    
+}
+
+header img{
+    
+    height:50px;
+    max-width:100%; 
+    margin-left: 10px 
+}
+header img:hover{
+    
+    opacity:0.7;
+}
+.main{
+    text-align: center; 
+}
+  
+.mission{
+    height:700px;
+    width:95%;
+    background-image: url(img-mission-background.jpg);
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+#text{
+  background-color: black;
+  width:100%;  
+  
+  justify-content: center;
+  flex-direction: column;
+  display:flex;
+  text-align: center;
+  
+}
+#text h2{
+    height: 10px; 
+    
+}
+#text h4{
+    height: fit-content;
+}
+
+.store{
+    width:1000px;
+    text-align: center;
+    display:inline-block;
+    width:100%; 
+       
+    
+}
+.item{
+    margin:auto 5px;   
+}
+.item img{
+    height:200px;
+    width:300px;
+    margin:10px;
+    display:block;  
+}
+.item div{
+    display:block;
+}
+.flex-container-items {
+    display:inline-flex;
+    justify-content: center;
+    
+}   
+.item span{
+    padding: 5px;
+    font-weight: bold; 
+
+} 
+
+
+.locations{
+    text-align: center;
+    widows: 90%;
+    height:500px;
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    margin-top: 80px;  
+    display: inline-block;   
+}
+.item2{
+    width:300px;    
+    background-color: black;
+    margin:auto 20px;  
+    height:270px; 
+    opacity: 1 ;
+}
+
+
+.items2{
+    width:100%;
+    display:flex;
+    position: relative;
+    top: 65px;
+    justify-content: center;
+    min-width:550px;
+
+}
+.locations h2{
+    position: relative;
+    top: 50px;
+}
+#title{
+    font-weight: bold;  
+    font-size:1.2em;
+}
+.contact{
+    height:200px;
+    width:100%;
+    text-align: center;
+}
+.contact h2{
+    margin:0px;
+    padding:10px;
+}
+footer{
+    text-align: left;
+    
+}
+footer h4{
+    margin-left:20px;
+    font-size: 0.83em;
+}
+.contact a{
+    color:seashell;
+}
+.contact  a:hover{
+opacity: 0.7;  
+}
